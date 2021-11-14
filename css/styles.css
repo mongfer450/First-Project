@@ -1,0 +1,90 @@
+/*----Tag Selector----*/
+body{
+  background-color: #FEF5ED;
+  margin: 0;
+}
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #99A799;
+}
+
+/*----Class Selector----*/
+.logo{
+  color: #FEF5ED;
+  font-size: 60px;
+  font-style: oblique;
+  font-weight: bold;
+  line-height: 100px;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.nav-links a{
+  color: #FEF5ED;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 25px;
+  list-style: none;
+}
+.nav-links li{
+  list-style: none;
+}
+.cloud-left{
+  position: fixed;
+  left: 0;
+  margin-right: auto;
+}
+.cloud-right{
+  position: fixed;
+  right: 0;
+}
+.mid-box{
+  border-style: none;
+  width: 1000px;
+  height: 650px;
+  margin: auto;
+  margin-top: 0;
+  color: #99A799;
+  font-style: oblique;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*----ID Selector----*/
+#knowledge{
+  position: fixed;
+  right: 0;
+}
+
+/*----Media Screen----*/
+@media screen and (max-width:1024px){
+  .nav-links{
+    width: 50%;
+  }
+  .mid-box{
+    width: 50%;
+  }
+@media screen and (max-width:768px){
+    .nav-links{
+      width: 60%;
+    }
+    .nav-links a{
+      font-size: 20px;
+    }
+    .mid-box{
+      width: 100%;
+    }
+    .logo{
+      font-size: 40px;
+    }
