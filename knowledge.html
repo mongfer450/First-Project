@@ -5,6 +5,34 @@
     <title>Mongfer Site</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="images/favicon.ico">
+    <style>
+      h1.page{
+        font-size: 40px;
+        text-align: center;
+        margin: 50px;
+      }
+      .page{
+        margin-left: 130px;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+      }
+      .otherpage{
+        text-align: center;
+        margin: 50px;
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+      }
+      h1.otherpage{
+        margin-top: 150px;
+        text-align: center;
+      }
+      img.page{
+        width: 200px;
+        height: 200px;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -13,15 +41,31 @@
         <li><a href="index.html">Home</a></li>
       </ul>
     </nav>
-    <h1>Web Developer (Front-End)</h1>
+    <h1 class="page">Web Developer (Front-End)</h1>
     <br>
-    <a class="page" href="page1.html" target="_blank">HTML?</a>
-    <br>
-    <a class="page" href="page2.html" target="_blank">CSS?</a>
-    <br>
-    <a class="page" href="page3.html" target="_blank">Javascript?</a>
-    <br>
-    <a class="page" href="page4.html" target="_blank">Html Tags</a>
-    <hr>
+    <section>
+      <span class="page">
+        <a class="page" href="page1.html" target="_blank"><img src="html.jpg" alt="" class="page"></a>
+        <a class="page" href="page2.html" target="_blank"><img src="css.jpg" alt="" class="page"></a>
+        <a class="page" href="page3.html" target="_blank"><img src="js.jpg" alt="" class="page"></a>
+      </span>
+      <h1 class="otherpage">Other Page (Front-End)</h1>
+  
+      <div class="otherpage">
+        <a class="otherpage" href="page4.html" target="_blank">Html Tags</a>
+        <a class="otherpage">Content2</a>
+        <a class="otherpage">Content3</a>
+        <a class="otherpage">Content4</a>
+      </div>
+    </section>
+    <footer>
+      <div class="copyright">
+        <hr>
+        <h3 class="copyright">
+          Copyright By Mongfer 2023
+        </h3>
+      </div>
+    </footer>
+    
   </body>
 </html>
